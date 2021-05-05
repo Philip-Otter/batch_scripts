@@ -1,0 +1,21 @@
+==================================================================
+ClipClear
+
+
+Philip Otter, last edit:  05/04/2021
+==================================================================
+
+Goal:
+
+To have a program that automatically clears your clipboard on a regular interval.
+
+
+Requirements:
+
+Windows PC
+
+
+Future Plans:
+
+Adjustable clear interval
+An Installer
