@@ -19,3 +19,4 @@ Future Plans:
 
 Adjustable clear interval
 An Installer
+Minimize to system tray

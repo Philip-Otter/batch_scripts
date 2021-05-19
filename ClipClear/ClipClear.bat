@@ -9,6 +9,9 @@ title ClipClear
 :: Clears clipboard
 @echo off | clip
 :: Starts a 10 minute timer with only ctrl-c allowed as an interupt
-timeout /t 900 /nobreak
+timeout /t 600 /nobreak
 :: Restarts the program
-start cmd.exe /c ClipClear.bat
+start /min ClipClear.bat
+:: run this line instead if using iexpress
+:: cmd.exe /c ClipClear.bat
+exit
