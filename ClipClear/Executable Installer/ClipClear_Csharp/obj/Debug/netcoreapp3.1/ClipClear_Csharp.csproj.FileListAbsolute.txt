@@ -1,0 +1,13 @@
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\bin\Debug\netcoreapp3.1\ClipClear_Csharp.exe
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\bin\Debug\netcoreapp3.1\ClipClear_Csharp.deps.json
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\bin\Debug\netcoreapp3.1\ClipClear_Csharp.runtimeconfig.json
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\bin\Debug\netcoreapp3.1\ClipClear_Csharp.runtimeconfig.dev.json
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\bin\Debug\netcoreapp3.1\ClipClear_Csharp.dll
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\bin\Debug\netcoreapp3.1\ClipClear_Csharp.pdb
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\obj\Debug\netcoreapp3.1\ClipClear_Csharp.csprojAssemblyReference.cache
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\obj\Debug\netcoreapp3.1\ClipClear_Csharp.AssemblyInfoInputs.cache
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\obj\Debug\netcoreapp3.1\ClipClear_Csharp.AssemblyInfo.cs
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\obj\Debug\netcoreapp3.1\ClipClear_Csharp.csproj.CoreCompileInputs.cache
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\obj\Debug\netcoreapp3.1\ClipClear_Csharp.dll
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\obj\Debug\netcoreapp3.1\ClipClear_Csharp.pdb
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear_Csharp\obj\Debug\netcoreapp3.1\ClipClear_Csharp.genruntimeconfig.cache

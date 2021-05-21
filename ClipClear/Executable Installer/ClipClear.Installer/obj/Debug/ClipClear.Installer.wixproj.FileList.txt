@@ -1,0 +1,6 @@
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear.Installer\bin\Debug\en-us\ClipClear.Installer.msi
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear.Installer\bin\Debug\en-us\ClipClear.Installer.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\ClipClear.Installer.wixproj.BindContentsFileListen-us.txt
+obj\Debug\ClipClear.Installer.wixproj.BindOutputsFileListen-us.txt
+obj\Debug\ClipClear.Installer.wixproj.BindBuiltOutputsFileListen-us.txt

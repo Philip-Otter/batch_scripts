@@ -1,0 +1,2 @@
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear.Installer\bin\Debug\en-us\ClipClear.Installer.msi
+C:\Users\19073\Documents\Batch Scripts\ClipClear\Executable Installer\ClipClear.Installer\bin\Debug\en-us\ClipClear.Installer.wixpdb

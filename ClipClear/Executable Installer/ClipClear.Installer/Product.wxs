@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	
+	<!-- This will decide what platform we are installing on. -->
+	<?if $(var.Platform) = x64?>
+	<?define ProductName = !(loc.ProductName_x64)?>
+	<?define ProductCode = "{3384F003-ECBD-456D-8FBD-1C84186DD9C7}"?>
+	<?else $(var.Platform) = x86?>
+	<?define ProductName = !(loc.ProductName_x86)?>
+	<?define ProductCode = "{83B4631B-5A7C-4DC2-8517-231F96723B69}"?>
+	<?endif?>
+	
+	<!-- The build version will later be updated to be pulled from the ClipClear version directly. -->
+	<?define BuildVersion = "0.0.1"?>
+	
+	<!-- This will always stay the same while the 'ProductCode' var will change from version to version -->
+	<?define UpgradeCode = "{ADCE7873-EA3F-475E-A971-D07A01ECF8EC}"?>
+	
+	<Product Id="$(var.ProductCode)" 
+			 Name="$(var.ProductName)" 
+			 Language="1033" 
+			 Version="1.0.0.0" 
+			 Manufacturer="!(loc.Company)" 
+			 UpgradeCode="$(var.UpgradeCode)">
+		
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="ClipClear.Installer" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="ClipClear.Installer" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+		</ComponentGroup>
+	</Fragment>
+</Wix>
